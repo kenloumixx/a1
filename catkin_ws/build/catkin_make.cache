@@ -1,0 +1,2 @@
+slamrplidar/improved_local_planner:slamrplidar/slam_planner_sdk:slamrplidar/slamplanner:slamrplidar/slamware_ros_sdk:slamrplidar/slamware_sdk
+-DCATKIN_DEVEL_PREFIX=/home/user/real_a1/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/user/real_a1/catkin_ws/install -G Unix Makefiles

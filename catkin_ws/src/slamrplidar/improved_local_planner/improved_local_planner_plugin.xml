@@ -1,0 +1,14 @@
+<library path="lib/libimproved_local_planner">
+	<class name="improved_local_planner/DBLocalPlannerROS" type="improved_local_planner::DBLocalPlannerROS" base_class_type="nav_core::BaseLocalPlanner">
+		<description>
+			The improved_local_planner package implements a plugin
+			to the base_local_planner of the 2D navigation stack.
+		</description>
+	</class>
+	<class name="improved_local_planner/DBLocalPlannerROS" type="improved_local_planner::DBLocalPlannerROS" base_class_type="mbf_costmap_core::CostmapController">
+		<description>
+			Same plugin implemented MBF CostmapController's extended interface.
+		</description>
+	</class>
+</library>
+
